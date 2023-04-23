@@ -1,0 +1,53 @@
+html {
+    cursor: url(images/tool.png) 30 30, auto;
+
+}
+
+body {
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gnat-sm {
+    width: 50px;
+    height: 50px;
+}
+
+.gnat-md {
+    width: 70px;
+    height: 70px;
+}
+
+.gnat-bg {
+    width: 90px;
+    height: 90px;
+}
+
+.left {
+    transform: scaleX(1);
+}
+
+.right {
+    transform: scaleX(-1);
+}
+
+.panel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vitality {
+    float: left;
+}
+
+.timing {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
